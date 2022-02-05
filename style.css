@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url(images/brainrider_homecurve-right.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.logo {
+  padding-right: 65px;
+}
+
+li {
+  padding-right: 45px;
+  list-style: none;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.btn-1 {
+  width: 9pc;
+  height: 3pc;
+  border-radius: 14px;
+  font-size: 18px;
+  font-weight: inherit;
+  color: #1c4094;
+  border: 3px solid #1c4094;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-1:hover {
+  background-color: #1c4094;
+  color: white;
+  transition: 0.7s;
+}
+
+li:hover {
+  color: #0d5cba;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+/*  */ /*  */ /* Main-Section */ /*  */ /*  */
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+
+.main {
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-image: url(images/brainrider_homecurve-left.svg);
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading-1 {
+  margin-top: 80px;
+  line-height: 93px;
+  font-size: 80px;
+  width: 679px;
+  text-align: center;
+  color: #29216b;
+  font-family: Nunito, Helvetica, Roboto, Arial, sans-serif;
+}
+
+.paragraph-1 {
+  font-family: Nunito, Helvetica, Roboto, Arial, sans-serif;
+  font-size: 34px;
+  color: #4c535a;
+  width: 980px;
+  text-align: center;
+  margin-top: 21px;
+  line-height: 50px;
+  font-weight: lighter;
+}
+
+.btn-2 {
+  font-family: Nunito, Helvetica, Roboto, Arial, sans-serif;
+  margin-top: 36px;
+  width: 12pc;
+  height: 3.5pc;
+  border-radius: 9px;
+  font-size: 25px;
+  background-color: #0d5cba;
+  border: 1px;
+  color: white;
+  font-weight: 700;
+}
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+/*  */ /*  */ /* About Section */ /*  */ /*  */
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+
+.about {
+  background-color: #f4f4f8;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading-2 {
+  margin-top: 60px;
+  font-family: Nunito, Helvetica, Roboto, Arial, sans-serif;
+  font-size: 60px;
+  color: #29216b;
+}
+
+.btn-3 {
+  width: 15pc;
+  height: 3.5pc;
+  font-size: 25px;
+}
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+/*  */ /*  */ /* image Section */ /*  */ /*  */
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+
+.image-section {
+  height: 80vh;
+}
+
+.img-sec-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.heading-4 {
+  font-size: 52px;
+  color: #29216b;
+  width: 588px;
+  font-family: Nunito, Helvetica, Roboto, Arial, sans-serif;
+}
+
+.paragraph-2 {
+  font-family: Nunito, Helvetica, Roboto, Arial, sans-serif;
+  width: 570px;
+  font-size: 24px;
+  line-height: 39px;
+  color: gray;
+}
+
+.btn-4 {
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+/*  */ /*  */ /* Sec Section */ /*  */ /*  */
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+
+.img-sec-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: -10px;
+}
+
+.sec {
+  background-color: #fffcf2;
+}
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+/*  */ /*  */ /* Capabilities Section  */ /*  */
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+
+.heading-5 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Nunito, Helvetica, Roboto, Arial, sans-serif;
+  line-height: 62px;
+  font-size: 52px;
+  color: #29216b;
+}
+
+.btn-5 {
+  width: 8pc;
+  margin-left: 46px;
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.strategy,
+.design {
+  width: 575px;
+  background-color: #f3f7fb;
+  height: 500px;
+  border-radius: 50px;
+}
+
+.heading-6 {
+  font-size: 29px;
+  margin-top: 53px;
+  margin-left: 46px;
+  color: #29216b;
+  font-family: Nunito, Helvetica, Roboto, Arial, sans-serif;
+}
+
+.paragraph-3{
+  margin-left: 46px;
+  font-size: 24px;
+  margin-top: 26px;
+  width: 483px;
+  color: #4c535a;
+  line-height: 35px;
+  font-family: Nunito, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 200;
+}
+
+.strategy{
+  background-image: url(images/Strategy.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.design{
+  background-image: url(images/Design.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.content{
+  background-image: url(images/Content.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom; 
+}
+
+.digital{
+  background-image: url(images/Digital.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom; 
+}
+
+.box{
+  padding-bottom: 60px;
+}
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+/*  */ /*  */ /*   Six Section  */ /*  */ /*  */
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+
+.six{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40vh;
+  background-color: #F3FAFA;
+}
+
+.heading-7{
+  margin-top: 10px;
+  font-family: Nunito, Helvetica, Roboto, Arial, sans-serif;
+  color: #29216b;
+  font-size: 52px;
+}
+
+.paragraph-4{
+  color: #4c535a;
+  font-size: 24px;
+  font-family: Nunito, Helvetica, Roboto, Arial, sans-serif;
+  text-align: center;
+  width: 62%;
+  line-height: 37px;
+  margin-top: 24px;
+}
+
+.btn-6{
+  margin-top: 40px;
+}
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+/*  */ /*  */ /* seven Section  */ /*  */ /*  */
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+
+.seven{
+  height: 20vh;
+}
